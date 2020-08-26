@@ -1,0 +1,14 @@
+package net.javaguides.mvc.service;
+
+import java.util.Arrays;
+import java.util.List;
+
+import net.javacodes.mvc.model.Employee;
+
+public class EmployeeService {
+
+	public List<Employee> getEmployees() {
+		return Arrays.asList(new Employee(1, "Sandepp", "CH"), new Employee(2, "Naresh", "U"),
+				new Employee(3, "venkat", "v"));
+	}
+}
